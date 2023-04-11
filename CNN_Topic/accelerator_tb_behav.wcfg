@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CNN_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CNN_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14,642.800 ns"></ZoomStartTime>
+      <ZoomEndTime time="15,063.301 ns"></ZoomEndTime>
+      <Cursor1Time time="14,349.600 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject fp_name="/CNN_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/clk_ram" type="logic">
+      <obj_property name="ElementShortName">clk_ram</obj_property>
+      <obj_property name="ObjectShortName">clk_ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/global_rst" type="logic">
+      <obj_property name="ElementShortName">global_rst</obj_property>
+      <obj_property name="ObjectShortName">global_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/douta" type="array">
+      <obj_property name="ElementShortName">douta[15:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/activation" type="array">
+      <obj_property name="ElementShortName">activation[15:0]</obj_property>
+      <obj_property name="ObjectShortName">activation[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_0" type="array">
+      <obj_property name="ElementShortName">conv_out_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_1" type="array">
+      <obj_property name="ElementShortName">conv_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_2" type="array">
+      <obj_property name="ElementShortName">conv_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_3" type="array">
+      <obj_property name="ElementShortName">conv_out_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_4" type="array">
+      <obj_property name="ElementShortName">conv_out_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_5" type="array">
+      <obj_property name="ElementShortName">conv_out_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_6" type="array">
+      <obj_property name="ElementShortName">conv_out_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/conv_out_7" type="array">
+      <obj_property name="ElementShortName">conv_out_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out_7[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/count2" type="array">
+      <obj_property name="ElementShortName">count2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/count3" type="array">
+      <obj_property name="ElementShortName">count3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/row_count" type="array">
+      <obj_property name="ElementShortName">row_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">row_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/en1" type="logic">
+      <obj_property name="ElementShortName">en1</obj_property>
+      <obj_property name="ObjectShortName">en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/en2" type="logic">
+      <obj_property name="ElementShortName">en2</obj_property>
+      <obj_property name="ObjectShortName">en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/conv/en3" type="logic">
+      <obj_property name="ElementShortName">en3</obj_property>
+      <obj_property name="ObjectShortName">en3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/conv_valid" type="logic">
+      <obj_property name="ElementShortName">conv_valid</obj_property>
+      <obj_property name="ObjectShortName">conv_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/conv_end" type="logic">
+      <obj_property name="ElementShortName">conv_end</obj_property>
+      <obj_property name="ObjectShortName">conv_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_0" type="array">
+      <obj_property name="ElementShortName">acclerator_out_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_0[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_1" type="array">
+      <obj_property name="ElementShortName">acclerator_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_1[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_2" type="array">
+      <obj_property name="ElementShortName">acclerator_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_2[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_3" type="array">
+      <obj_property name="ElementShortName">acclerator_out_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_3[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_4" type="array">
+      <obj_property name="ElementShortName">acclerator_out_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_4[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_5" type="array">
+      <obj_property name="ElementShortName">acclerator_out_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_5[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_6" type="array">
+      <obj_property name="ElementShortName">acclerator_out_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_6[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_out_7" type="array">
+      <obj_property name="ElementShortName">acclerator_out_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acclerator_out_7[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/acclerator_1_valid_op" type="logic">
+      <obj_property name="ElementShortName">acclerator_1_valid_op</obj_property>
+      <obj_property name="ObjectShortName">acclerator_1_valid_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/acclerator_1_valid_end" type="logic">
+      <obj_property name="ElementShortName">acclerator_1_valid_end</obj_property>
+      <obj_property name="ObjectShortName">acclerator_1_valid_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_0" type="array">
+      <obj_property name="ElementShortName">fc_out_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_0[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_1" type="array">
+      <obj_property name="ElementShortName">fc_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_1[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_2" type="array">
+      <obj_property name="ElementShortName">fc_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_2[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_3" type="array">
+      <obj_property name="ElementShortName">fc_out_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_3[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_4" type="array">
+      <obj_property name="ElementShortName">fc_out_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_4[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_5" type="array">
+      <obj_property name="ElementShortName">fc_out_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_5[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_6" type="array">
+      <obj_property name="ElementShortName">fc_out_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_6[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_7" type="array">
+      <obj_property name="ElementShortName">fc_out_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_7[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_8" type="array">
+      <obj_property name="ElementShortName">fc_out_8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_8[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_out_9" type="array">
+      <obj_property name="ElementShortName">fc_out_9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_out_9[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">8</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_count" type="array">
+      <obj_property name="ElementShortName">fc_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/fc_end_out" type="logic">
+      <obj_property name="ElementShortName">fc_end_out</obj_property>
+      <obj_property name="ObjectShortName">fc_end_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/u1/number_1st" type="array">
+      <obj_property name="ElementShortName">number_1st[3:0]</obj_property>
+      <obj_property name="ObjectShortName">number_1st[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/u1/number_2st" type="array">
+      <obj_property name="ElementShortName">number_2st[3:0]</obj_property>
+      <obj_property name="ObjectShortName">number_2st[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/u1/number_3st" type="array">
+      <obj_property name="ElementShortName">number_3st[3:0]</obj_property>
+      <obj_property name="ObjectShortName">number_3st[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/master_rst" type="logic">
+      <obj_property name="ElementShortName">master_rst</obj_property>
+      <obj_property name="ObjectShortName">master_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/rst_m" type="logic">
+      <obj_property name="ElementShortName">rst_m</obj_property>
+      <obj_property name="ObjectShortName">rst_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/op_en" type="logic">
+      <obj_property name="ElementShortName">op_en</obj_property>
+      <obj_property name="ObjectShortName">op_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/load_sr" type="logic">
+      <obj_property name="ElementShortName">load_sr</obj_property>
+      <obj_property name="ObjectShortName">load_sr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/global_rst" type="logic">
+      <obj_property name="ElementShortName">global_rst</obj_property>
+      <obj_property name="ObjectShortName">global_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/end_op" type="logic">
+      <obj_property name="ElementShortName">end_op</obj_property>
+      <obj_property name="ObjectShortName">end_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/row_count" type="array">
+      <obj_property name="ElementShortName">row_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">row_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/col_count" type="array">
+      <obj_property name="ElementShortName">col_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">col_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/log/nbgh_row_count" type="array">
+      <obj_property name="ElementShortName">nbgh_row_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nbgh_row_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_tb/uut/acclerator_0_0/pool/SR/sr" type="array">
+      <obj_property name="ElementShortName">sr[12:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sr[12:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

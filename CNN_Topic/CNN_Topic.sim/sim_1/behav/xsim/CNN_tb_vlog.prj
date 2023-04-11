@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CNN_Topic.gen/sources_1/ip/image_bram/sim/image_bram.v" \
+"../../../../CNN_Topic.gen/sources_1/ip/Fully_Connected_bram/sim/Fully_Connected_bram.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/new/CNN.v" \
+"../../../../CNN_Topic.srcs/sources_1/new/Fully_Connected.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/accelerator.v" \
+"../../../../CNN_Topic.srcs/sources_1/new/acclerator_1.v" \
+"../../../../CNN_Topic.srcs/sources_1/new/acclerator_11.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/comparator2.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/control_logic2.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/input_mux.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/max_reg.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/pooler.v" \
+"../../../../CNN_Topic.srcs/sources_1/new/pooler2.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/qadd.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/qmult.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/relu.v" \
+"../../../../CNN_Topic.srcs/sources_1/imports/FPGA/variable_shift_reg.v" \
+"../../../../CNN_Topic.srcs/sim_1/imports/new/CNN_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

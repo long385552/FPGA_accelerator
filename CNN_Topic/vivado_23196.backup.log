@@ -1,0 +1,479 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Mar 26 21:50:18 2022
+# Process ID: 23196
+# Current directory: C:/Users/long3/Desktop/CNN_Topic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14604 C:\Users\long3\Desktop\CNN_Topic\CNN_Topic.xpr
+# Log file: C:/Users/long3/Desktop/CNN_Topic/vivado.log
+# Journal file: C:/Users/long3/Desktop/CNN_Topic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1350.738 ; gain = 21.516
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.runs/synth_1
+
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CNN_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CNN_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/Fully_Connected_bram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/Fully_Connected.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/image_bram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/image_fp.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CNN_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.gen/sources_1/ip/image_bram/sim/image_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.gen/sources_1/ip/Fully_Connected_bram/sim/Fully_Connected_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fully_Connected_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:290]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:321]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:352]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:383]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:414]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:445]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:476]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:508]
+ERROR: [VRFC 10-8414] extra comma in port association list is not allowed [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:539]
+ERROR: [VRFC 10-2865] module 'CNN' ignored due to previous errors [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CNN_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CNN_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/Fully_Connected_bram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/Fully_Connected.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/image_bram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim/image_fp.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CNN_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.gen/sources_1/ip/image_bram/sim/image_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.gen/sources_1/ip/Fully_Connected_bram/sim/Fully_Connected_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fully_Connected_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/new/CNN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/Fully_Connected.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fully_Connected
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/accelerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acclerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acclerator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acclerator_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/comparator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/control_logic2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_logic2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/convolver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module convolver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/input_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/mac_manual.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_manual
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/max_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/pooler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pooler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/pooler2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pooler2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/qmult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmult
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module relu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/practice/sort/sort.srcs/sources_1/new/sort.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sort
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/imports/FPGA/variable_shift_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module variable_shift_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sim_1/imports/new/CNN_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+"xelab -wto a9dd0f76bd29440b98aa6abf3fa82b63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CNN_tb_behav xil_defaultlib.CNN_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto a9dd0f76bd29440b98aa6abf3fa82b63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CNN_tb_behav xil_defaultlib.CNN_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'tm' [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sim_1/imports/new/CNN_tb.v:164]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 16 for port 'tm' [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_1.v:157]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'tm' [C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_11.v:205]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.qmult(N=32'b010000,Q=32'b01000)
+Compiling module xil_defaultlib.qadd(N=32'b010000,Q=32'b01000)
+Compiling module xil_defaultlib.mac_manual(N=32'b010000,Q=32'b01...
+Compiling module xil_defaultlib.variable_shift_reg(WIDTH=32'b010...
+Compiling module xil_defaultlib.convolver(n=32'b011100,k=32'b011...
+Compiling module xil_defaultlib.relu(N=32'b010000)
+Compiling module xil_defaultlib.control_logic2
+Compiling module xil_defaultlib.comparator2(N=32'b010000,ptype=3...
+Compiling module xil_defaultlib.max_reg(N=32'b010000)
+Compiling module xil_defaultlib.variable_shift_reg(WIDTH=32'b010...
+Compiling module xil_defaultlib.input_mux(N=32'b010000)
+Compiling module xil_defaultlib.pooler(m=32'b011010,p=32'b010,N=...
+Compiling module xil_defaultlib.acclerator(n=32'b011100,k=32'b01...
+Compiling module xil_defaultlib.variable_shift_reg(WIDTH=32'b010...
+Compiling module xil_defaultlib.convolver(n=9'b01101,k=32'b011,N...
+Compiling module xil_defaultlib.pooler2(m='b01010,p=32'b010,N=32...
+Compiling module xil_defaultlib.acclerator_11(k=32'b011,p=32'b01...
+Compiling module xil_defaultlib.acclerator_1(k=32'b011,p=32'b010...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.Fully_Connected_bram
+Compiling module xil_defaultlib.qmult
+Compiling module xil_defaultlib.qadd
+Compiling module xil_defaultlib.Fully_Connected
+Compiling module xil_defaultlib.sort
+Compiling module xil_defaultlib.CNN(n='b011100,k='b011,p='b010,s...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.image_bram
+Compiling module xil_defaultlib.CNN_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CNN_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1371.840 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CNN_tb_behav -key {Behavioral:sim_1:Functional:CNN_tb} -tclbatch {CNN_tb.tcl} -view {C:/Users/long3/Desktop/CNN_Topic/accelerator_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/long3/Desktop/CNN_Topic/accelerator_tb_behav.wcfg
+source CNN_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 20000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CNN_tb.uut.fc_weight.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CNN_tb.mem.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_4 WARNING: Address 19 is outside range for A Read
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CNN_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 20000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1371.840 ; gain = 0.000
+launch_runs synth_1 -jobs 8
+[Sat Mar 26 21:59:53 2022] Launched synth_1...
+Run output will be captured here: C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 26 22:04:48 2022...

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Mar 26 19:14:13 2022
+# Process ID: 12796
+# Current directory: C:/Users/long3/Desktop/CNN_Topic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16040 C:\Users\long3\Desktop\CNN_Topic\CNN_Topic.xpr
+# Log file: C:/Users/long3/Desktop/CNN_Topic/vivado.log
+# Journal file: C:/Users/long3/Desktop/CNN_Topic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/long3/Desktop/CNN_Topic/CNN_Topic.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/long3/Desktop/CNN_Topic/accelerator_tb_behav.wcfg
+source CNN_tb.tcl
+close_sim

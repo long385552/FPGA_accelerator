@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Aug 29 12:44:32 2022
+# Process ID: 10800
+# Current directory: D:/CNN_Topic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1964 D:\CNN_Topic\CNN_Topic.xpr
+# Log file: D:/CNN_Topic/vivado.log
+# Journal file: D:/CNN_Topic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CNN_Topic/CNN_Topic.xpr
+update_compile_order -fileset sources_1

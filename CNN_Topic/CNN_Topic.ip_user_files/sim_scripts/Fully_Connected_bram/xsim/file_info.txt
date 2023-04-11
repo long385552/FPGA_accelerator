@@ -1,0 +1,2 @@
+Fully_Connected_bram.v,verilog,xil_defaultlib,../../../../CNN_Topic.gen/sources_1/ip/Fully_Connected_bram/sim/Fully_Connected_bram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

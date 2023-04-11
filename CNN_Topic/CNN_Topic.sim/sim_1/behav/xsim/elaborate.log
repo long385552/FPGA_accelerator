@@ -1,0 +1,11 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto a9dd0f76bd29440b98aa6abf3fa82b63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CNN_tb_behav xil_defaultlib.CNN_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'tm' [D:/CNN_Topic/CNN_Topic.srcs/sim_1/imports/new/CNN_tb.v:164]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 16 for port 'tm' [D:/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_1.v:157]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'tm' [D:/CNN_Topic/CNN_Topic.srcs/sources_1/new/acclerator_11.v:205]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

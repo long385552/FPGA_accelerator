@@ -1,0 +1,2 @@
+image_bram.v,verilog,xil_defaultlib,../../../../CNN_Topic.gen/sources_1/ip/image_bram/sim/image_bram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
