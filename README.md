@@ -9,3 +9,6 @@ Hnadwriting digit
 Simulation Result
 
 ![image](https://user-images.githubusercontent.com/55587343/231060221-6a8e7c6d-0d9a-4a9f-96bd-95c9843148c5.png)
+
+Speed
+It takes 731 cycles to recognize.
