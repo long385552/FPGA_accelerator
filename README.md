@@ -1,4 +1,4 @@
-# FPGA_CNN
+# FPGA_accelerator
 This project implements handwriting digit recognition using pipelined CNN based on fpga.
 
 # Result
